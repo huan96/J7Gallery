@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="80dp"
+    android:layout_height="80dp"
+    android:layout_gravity="center"
+    android:layout_margin="2dp">
+
+    <com.galaxy.gallery.j7gallery.until.SmoothCheckBox
+        android:visibility="gone"
+        android:id="@+id/check_item"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_margin="4dp"
+        android:padding="1dp"
+        app:color_checked="@color/colorWhite" />
+
+    <ImageView
+        android:id="@+id/thumbnail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_launcher" />
+
+    <ImageView
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="4dp"
+        android:clickable="true"
+        android:padding="2dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_play" />
+
+</RelativeLayout>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">"J7 Gallery "</string>
+    <string name="gallery">Gallery</string>
+    <string name="images">Images</string>
+    <string name="albums">Album</string>
+    <string name="favorties">Favorites</string>
+    <string name="videos">Videos</string>
+    <string name="pictures">Pictures</string>
+    <string name="camera">Camera</string>
+    <string name="o">0</string>
+    <string name="rate">Please rate 5 stars for us!</string>
+    <string name="notnow">Cancel</string>
+    <string name="ratenow">Rate now</string>
+    <string name="select_item">Select item</string>
+    <string name="rate_app">Rate app</string>
+    <string name="warning">Warning</string>
+    <string name="do_you_really_want_to_delete">Do you really want to delete?</string>
+    <string name="share">Share</string>
+    <string name="delete">Delete</string>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:layout_marginBottom="8dp">
+
+    <com.galaxy.gallery.j7gallery.until.SmoothCheckBox
+        android:id="@+id/check_item"
+        android:visibility="gone"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_centerVertical="true"
+        android:layout_margin="10dp"
+        app:color_checked="@color/colorOrange" />
+
+    <ImageView
+        android:id="@+id/thumbnail"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_toRightOf="@+id/check_item"
+        android:padding="8dp"
+        android:scaleType="centerCrop" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.galaxy.gallery.j7gallery.fonts.CustomTextViewClock2017
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:text="@string/camera"
+            android:textColor="@color/colorTextBold"
+            android:textSize="16sp" />
+
+        <com.galaxy.gallery.j7gallery.fonts.CustomTextViewClock2017
+            android:id="@+id/count"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:text="@string/o"
+            android:textColor="@color/colorTextLight"
+            android:textSize="14sp" />
+    </LinearLayout>
+</RelativeLayout>
